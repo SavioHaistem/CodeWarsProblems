@@ -28,7 +28,7 @@ public class GoodVsEvil {
                     battle += goodAmountsCounter[count];
                     battle -= evilAmountsCounter[count];
             }
-
+            //this solution not solve the problem, the solved solution use if-else statement otherwise switch case
         if (battle > 0) {
             return "Battle Result: Good triumphs over Evil";
         } else if (battle < 0) {
