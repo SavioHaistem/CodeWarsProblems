@@ -1,4 +1,4 @@
-package Katas;
+package Kyu6;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Katas;
+package Kyu6;
 
 import java.util.function.IntPredicate;
 import java.util.Arrays;

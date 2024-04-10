@@ -1,12 +1,12 @@
-import Katas.ArrayDiff;
+import Kyu6.ArrayDiff;
+import Kyu6.GoodVsEvil;
 
 import java.util.*;
-import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
-        int[] a = {1,3};
-        int[] b = {2,2};
-        Arrays.stream(ArrayDiff.arrayDiff(a, b)).forEach(System.out::print);
+        String a = "3883 6795 7550 5461 4423 2689";
+        String b = "2186 295 6256 1583 6005 4897 7077";
+        System.out.println(GoodVsEvil.battle(a,b));
     }
 }
